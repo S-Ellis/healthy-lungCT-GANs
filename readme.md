@@ -8,7 +8,7 @@ This project builds heavily on pre-existing code, such as the official PyTorch [
 
 ## Requirements
 
-Requirements are provided in the accompanying yml file. 
+Requirements are provided in the accompanying `requirements.yml` file. 
 
 ## Instructions for use
 
@@ -16,7 +16,7 @@ Requirements are provided in the accompanying yml file.
 
 There are a number of steps that need to be followed before the GAN training code can be run.
 
-1. The LUNA16 code must be downloaded [here](https://luna16.grand-challenge.org/Download/) and the raw CT images stored such that all subsets are held in the same folder. E.g. the data folder is called `/path/to/LUNA16/`, which contains 10 subfolders `subset0`, `subset1`, etc.
+1. The LUNA16 data must be downloaded [here](https://luna16.grand-challenge.org/Download/) and the raw CT images stored such that all subsets are held in the same folder. E.g. the data folder is called `/path/to/LUNA16/`, which contains 10 subfolders `subset0`, `subset1`, etc.
 2. The seg-lungs-LUNA16.zip must be unzipped and stored as one directory separate to the raw CT images, e.g. `/path/to/seg-lungs-LUNA16/`.
 3. Run the `filter_and_split_LUNA16.py` file, pointing it to your saved LUNA16 images and segmentations. This discards scans classed as malignant, and splits the remaining scans into 80:20 train:test.
 
