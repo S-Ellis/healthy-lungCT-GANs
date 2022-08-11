@@ -1,0 +1,19 @@
+name: lunggan_env
+channels:
+  - simpleitk
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=18.1=py36_0
+  - python=3.6.7=h0371630_0
+  - pytorch=1.0.1=py3.6_cuda9.0.176_cudnn7.4.2_2
+  - scikit-image=0.16.2=py36hb3f55d8_0
+  - scipy=1.2.1=py36h7c811a0_0
+  - simpleitk=1.2.0=py36hf484d3e_0
+  - torchvision=0.2.2=py_3
+  - pip:
+    - pylidc==0.2.1
+    - pytorch-fid==0.2.0
+

@@ -1,0 +1,1 @@
+The code in this folder is taken from the MedicalNet project, available at https://github.com/Tencent/MedicalNet. 
