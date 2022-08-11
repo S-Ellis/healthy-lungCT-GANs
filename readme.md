@@ -1,6 +1,6 @@
 # Supporting Code for *Evaluation of 3D GANs for Lung Tissue Modelling in Pulmonary CT* by Ellis et al, 2022
 
-This repository contains code to train and analyse three families of GAN models for healthy lung tissue modelling, as described in '*Evaluation of 3D GANs for Lung Tissue Modelling in Pulmonary CT*' by Ellis et al. Journal of Machine Learning for Biomedical Imaging. 2022. (link to follow)
+This repository contains code to train and analyse three families of GAN models for healthy lung tissue modelling, as described in '*Evaluation of 3D GANs for Lung Tissue Modelling in Pulmonary CT*' by S Ellis, OE Martinez Manzanera, V Baltatzis, I Nawaz, A Nair, L Le Folgoc, S Desai, B Glocker and JA Schnabel. Journal of Machine Learning for Biomedical Imaging. 2022. (link to follow)
 
 This project builds heavily on pre-existing code, such as the official PyTorch [DCGAN implementation](https://github.com/pytorch/examples/blob/main/dcgan/main.py) and the [bigGAN code](https://github.com/ajbrock/BigGAN-PyTorch) released by Brock et al. The 3D FID component of the analysis relies on the pretrained 3D MedicalNet by Chen et al, available [here](https://github.com/Tencent/MedicalNet).
 
